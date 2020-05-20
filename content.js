@@ -1,8 +1,3 @@
 window.onload = function () {
-    $('body').addClass('dark');
-    // document.getElementsByTagName('body').classList.add('dark');
-
-
-
-
+    document.body.classList.add("dark");
 }

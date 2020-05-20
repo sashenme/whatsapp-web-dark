@@ -1,14 +1,13 @@
 {
     "name": "WhatsApp Web Dark Mode",
-    "version": "0.1",
+    "version": "1.0",
     "manifest_version": 2,
-    "description": "WhatsApp Dark Mode Developed by @SashenMe",
+    "description": "A simple extention to turn on dark mode of WhatsApp Web",
     "author": "Sashen Pasindu",
     "homepage_url": "https://sashen.me",
     "background": {
         "scripts": [
-            "modernizr.min.js",
-            "js/jquery-3.4.1.min.js"
+            "content.js"
         ],
         "persistent": false
     },
@@ -21,19 +20,14 @@
                 "styles.css"
             ],
             "js": [
-                "content.js",
-                "js/jquery-3.4.1.min.js"
+                "content.js"
             ],
             "run_at": "document_end"
         }
     ],
-    "permissions": [
-        "contextMenus",
-        "activeTab",
-        "https://web.whatsapp.com"
-    ],
     "icons": {
-        "16": "images/icon_16.png",
-        "128": "images/icon_128.png"
+        "16": "icons/icon_16x16.png",
+        "48": "icons/icon_48x48.png",
+        "128": "icons/icon_128x128.png"
     }
 }
